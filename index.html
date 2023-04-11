@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="app">
-        <ul>
+        <ul v-if="randomEmails.length === 10">
             <li v-for="email in randomEmails">{{ email }}</li>
         </ul>
     </div>
